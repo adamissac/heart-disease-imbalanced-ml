@@ -69,3 +69,10 @@ jupyter notebook heart_disease_imbalanced_classification.ipynb
 - The most effective imbalance fix depends on how the model makes decisions:
   weighting worked for the linear/kernel models, threshold tuning for the ensemble.
 
+## Limitations
+
+- ~1% subset of the full ~319k-row BRFSS 2020 dataset.
+- Single non-stratified split; the Youden threshold is selected on the test set
+  (optimistic — a clean pipeline selects it on a separate validation split).
+- Self-reported, cross-sectional survey data: associations, not diagnosis.
+
