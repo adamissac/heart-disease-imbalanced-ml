@@ -76,3 +76,7 @@ jupyter notebook heart_disease_imbalanced_classification.ipynb
   (optimistic — a clean pipeline selects it on a separate validation split).
 - Self-reported, cross-sectional survey data: associations, not diagnosis.
 
+## Data source
+
+Derived from the [Personal Key Indicators of Heart Disease](https://www.kaggle.com/datasets/kamilpytlak/personal-key-indicators-of-heart-disease)
+dataset (CDC BRFSS 2020). De-identified, publicly available survey data.
