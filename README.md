@@ -53,3 +53,10 @@ requirements.txt
 4. **Fix** — apply `class_weight="balanced"`, then tune the Random Forest decision
    threshold via Youden's J.
 
+## Run it
+
+```bash
+pip install -r requirements.txt
+jupyter notebook heart_disease_imbalanced_classification.ipynb
+```
+
