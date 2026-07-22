@@ -24,3 +24,12 @@ Two standard imbalance fixes recover most of the lost detection:
 The Random Forest's ROC-AUC was **0.79** the whole time — the predictive signal was
 there; the default 0.5 decision threshold was hiding it.
 
+## Key figures
+
+| | |
+|---|---|
+| ![Sensitivity vs specificity](figures/sens_spec.png) | ![ROC curve](figures/roc_curve.png) |
+| Baseline models: high specificity, near-zero sensitivity | RF ranks cases well (AUC 0.79) despite poor thresholded detection |
+| ![Threshold sweep](figures/threshold_sweep.png) | ![Before/after](figures/sens_before_after.png) |
+| Moving the RF threshold trades specificity for sensitivity | Each fix lifts detection from near zero to ~two-thirds of cases |
+
