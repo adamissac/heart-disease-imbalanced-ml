@@ -42,3 +42,14 @@ figures/                                        # generated plots (regenerated b
 requirements.txt
 ```
 
+## Method
+
+1. **Preprocess** — one-hot encode categoricals (drop-first), standardize continuous
+   features (scaler fit on train only), 80/20 split.
+2. **Baseline** — train four classifiers at default settings; compare every model to a
+   majority-class baseline.
+3. **Diagnose** — report sensitivity, specificity, balanced accuracy, and ROC/PR
+   curves instead of relying on accuracy.
+4. **Fix** — apply `class_weight="balanced"`, then tune the Random Forest decision
+   threshold via Youden's J.
+
