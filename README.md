@@ -60,3 +60,12 @@ pip install -r requirements.txt
 jupyter notebook heart_disease_imbalanced_classification.ipynb
 ```
 
+## Takeaways
+
+- Accuracy and support-weighted F1 are dominated by the majority class under skew —
+  use sensitivity, balanced accuracy, and precision-recall analysis.
+- Always compare against a majority-class baseline; it instantly exposes a model that
+  learned nothing beyond the prior.
+- The most effective imbalance fix depends on how the model makes decisions:
+  weighting worked for the linear/kernel models, threshold tuning for the ensemble.
+
