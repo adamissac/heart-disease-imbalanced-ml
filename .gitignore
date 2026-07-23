@@ -14,13 +14,19 @@ env/
 
 # Jupyter
 .ipynb_checkpoints/
+*/.ipynb_checkpoints/*
 
 # OS / editor
 .DS_Store
 Thumbs.db
 .idea/
 .vscode/
+*.swp
 
 # Env / secrets
 .env
 .env.*
+
+# Misc
+*.log
+.cache/
