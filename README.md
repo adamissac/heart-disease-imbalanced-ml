@@ -80,3 +80,7 @@ jupyter notebook heart_disease_imbalanced_classification.ipynb
 
 Derived from the [Personal Key Indicators of Heart Disease](https://www.kaggle.com/datasets/kamilpytlak/personal-key-indicators-of-heart-disease)
 dataset (CDC BRFSS 2020). De-identified, publicly available survey data.
+
+## Related repo
+
+Baseline multi-model accuracy comparison (without the imbalance deep-dive): [heart-disease-risk-prediction](https://github.com/adamissac/heart-disease-risk-prediction).
