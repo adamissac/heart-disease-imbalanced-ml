@@ -55,6 +55,8 @@ requirements.txt
 
 ## Run it
 
+Requires Python 3.9+. From the repo root:
+
 ```bash
 pip install -r requirements.txt
 jupyter notebook heart_disease_imbalanced_classification.ipynb
