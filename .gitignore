@@ -1,0 +1,10 @@
+# Datasets are fetched with download_data.py (~51 MB total)
+data/*.csv
+
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
+.venv/
+venv/
+env/
